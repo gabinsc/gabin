@@ -1,0 +1,16 @@
+{
+  "name": "gabin",
+  "version": "0.0.1",
+  "main": "index.js",
+  "authors": [
+    "LGC"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
