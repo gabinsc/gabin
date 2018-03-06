@@ -14,6 +14,6 @@
     "tests"
   ],
   "devDependencies": {
-    "gabin": "*"
+    "gabin": "^0.0.2"
   }
 }
