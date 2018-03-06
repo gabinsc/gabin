@@ -1,0 +1,40 @@
+<div class="row" style="display: flex; justify-content: center;">
+	<div class="col s12 m6 l4" style="right: 0; right: 0; margin: 100px 0 0 0;">
+		<div class="card hoverable">
+			<div class="card-content white-text">
+				<span class="card-title center-align black-text text-lighten-1">Login</span>
+				<div>
+					<form name="loginForm">
+						<div class="row">
+							<div class="input-field col s12" ng-class-odd="{'invalid': loginForm.nombreInput.$invalid && loginForm.nombreInput.$dirty, 'valid': loginForm.nombreInput.$valid}">
+								<!-- <span class="prefix"><i class="material-icons">person</i></span> -->
+								<input name="nombreInput" ng-model="p.nom" type="text" id="nombre" maxlength="100" minlength="1" required autofocus>
+								<label for="nombre">Usuario</label>
+								<!-- <div class="messages" ng-messages="loginForm.nombre.$error" ng-show="loginForm.nombre.$dirty">
+									<div ng-message="required">
+										este campo es requerido
+									</div>
+								</div> -->
+								
+							</div>
+							<div class="input-field col s12" ng-class-odd="{'invalid': loginForm.contraInput.$invalid && loginForm.contraInput.$dirty, 'valid': loginForm.contraInput.$valid}">
+								<!-- <span class="prefix"><i class="material-icons">person</i></span> -->
+								<input name="contraInput" ng-model="p.con" type="password" id="contra" maxlength="100" minlength="1" required>
+								<label for="contra">Contraceña</label>
+								<!-- <div class="messages" ng-messages="loginForm.contra.$error" ng-show="loginForm.contra.$dirty">
+									<div ng-message="required">
+										este campo es requerido
+									</div>
+								</div> -->
+								
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="card-action">
+				<button class="btn btn-flat waves-effect" ng-click="envia(p)" ng-disabled="loginForm.$invalid" style="height: auto; width: 100%;padding: 15px 0;">Ingresar</button>
+			</div>
+		</div>
+	</div>
+</div>

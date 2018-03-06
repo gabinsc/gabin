@@ -1,0 +1,26 @@
+{
+  "name": "gabin",
+  "main": "index.js",
+  "authors": [
+    "LGC"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "homepage": "https://github.com/gabinsc/gabin",
+  "_release": "08a94b9fff",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "08a94b9fff4c24336dceac99218ee641d3af166c"
+  },
+  "_source": "https://github.com/gabinsc/gabin.git",
+  "_target": "*",
+  "_originalSource": "gabin",
+  "_direct": true
+}
