@@ -1,0 +1,36 @@
+
+
+
+
+
+<header>
+		<nav class="top-nav">
+		  <div class="container">
+			<div class="nav-wrapper"><a class="page-title" href="#">{{credencial.nombre}}</a></div>
+		  </div>
+		</nav>
+		<div class="container"><a href="#" data-activates="nav-mobile" class="button-collapse top-nav full hide-on-large-only"><i class="material-icons white-text">menu</i></a></div>
+		<ul id="nav-mobile" class="side-nav fixed">
+			<li>
+				<div class="userView">
+					<img class="background" src="./images/office.jpg">
+					<a href="#!/"><img class="circle" src="./images/logo.png"/></a>
+					<a href="#!/"><span class="white-text name" style="text-transform: capitalize;">{{credencial.nombre}}</span></a>
+					<a href="#!/"><span class="white-text email">{{credencial.email}}</span></a>
+				</div>
+			</li>
+			
+			<li><a href="#!/" class="waves-effect">Items (lista)</a></li>
+			<li><div class="divider"></div></li>
+			<li><a href="#!/login" class="waves-effect">Salir</a></li>
+		</ul>
+	  </header>
+	  
+	  <main>
+			<div class="container" ng-transclude=""></div>
+	  </main>
+
+
+
+
+<!-- <a  data-activates="nav-mobile" class="button-collapse show-on-large"><i class="material-icons">menu</i></a> -->
